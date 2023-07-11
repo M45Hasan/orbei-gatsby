@@ -13,18 +13,18 @@ const Navbar = () => {
           </div>
           <div className="w-9/12">
             <ul className="mt-5 lg:mt-0 lg:flex lg:justify-end lg:gap-x-10 ">
-                <li className="font-dm text-sm font-bold hover:font-bold ">
-                    <Link to="/home">Home</Link>
-                </li>
-                <li className="font-dm text-sm font-bold hover:font-bold ">
-                    About
-                </li>
-                <li className="font-dm text-sm font-bold hover:font-bold ">
-                    Service
-                </li>
-                <li className="font-dm text-sm font-bold hover:font-bold ">
-                    Contact
-                </li>
+              <li className="font-dm text-sm font-bold hover:font-bold ">
+                <Link to="/">Home</Link>
+              </li>
+              <li className="font-dm text-sm font-bold hover:font-bold ">
+              <Link to="/about">About</Link>
+              </li>
+              <li className="font-dm text-sm font-bold hover:font-bold ">
+              <Link to="/service">Service</Link>
+              </li>
+              <li className="font-dm text-sm font-bold hover:font-bold ">
+              <Link to="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
         </div>
